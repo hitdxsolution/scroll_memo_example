@@ -23,7 +23,7 @@ class AddMemoInput extends StatelessWidget {
             ),
           ),
           child: Obx(() {
-            return memoController.isEditing.value
+            return memoController.isAdding.value
                 ? Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
